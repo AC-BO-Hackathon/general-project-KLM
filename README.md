@@ -5,5 +5,3 @@ We will look at three hyperparameters that can be used to define the differences
 
 # Usage
 Please run `BOv4.ipynb` to run the Bayesian Optimization over one set of hyperparameters. Once all hyperparameters have been run, please use `01-eda.ipynb` to plot the results.
-
-Muckley, E. S., Saal, J. E., Meredig, B., Roper, C. S., Martin, J. H. (2023) Interpretable models for extrapolation in scientific in machine learning. Digital Discovery, 2023, 2, 1425
