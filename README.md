@@ -4,4 +4,4 @@ This project will focus on trying to simulate the decision-making of a human res
 We will look at three hyperparameters that can be used to define the differences between a researcher and regular Bayesian Optimization: the number of features that can be processed, the degree of exploration vs exploitation, and the interpretability/complexity of the surrogate model.
 
 # Usage
-Please run `BOv4.ipynb` to run the Bayesian Optimization over one set of hyperparameters. Once all hyperparameters have been run, please use `01-eda.ipynb` to plot the results.
+Please go to the `src` folder and run `BOv4.ipynb` to run the Bayesian Optimization over one set of hyperparameters. Once all hyperparameters have been run, please use `01-eda.ipynb` to plot the results.
