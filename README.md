@@ -1,17 +1,9 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=14516443)
-# Intro to GitHub Classroom
-This example project is written in Python, and tested with [pytest](https://www.python.org/).
+# Introduction
+This project will focus on trying to simulate the decision-making of a human researcher using a Bayesian Optimization framework, then comparing the performance across different, improved hyperparameters. By exploring these differences, this project aims to understand the strengths and weaknesses of Bayesian Optimization relative to the decision-making of a researcher with access to the same data.
 
-## The assignment
+We will look at three hyperparameters that can be used to define the differences between a researcher and regular Bayesian Optimization: the number of features that can be processed, the degree of exploration vs exploitation, and the interpretability/complexity of the surrogate model.
 
-The test in [`hello_test.py`](hello_test.py) is failing right now because the function in [`hello.py`](hello.py) isn't outputting the correct string. Fix this function and run the `pytest` command in the terminal to make the tests green.
+# Usage
+Please run `BOv4.ipynb` to run the Bayesian Optimization over one set of hyperparameters. Once all hyperparameters have been run, please use `01-eda.ipynb` to plot the results.
 
-Next, open the "Source Control" button on the left sidebar, write a commit message, and commit and push your changes to GitHub.
-
-![](commit-and-push.gif)
-
-After committing and pushing your changes, the autograder will run your tests and give you a grade. To check your autograded scores, click on the GitHub Actions extension on the left sidebar, click the refresh button at the top-right corner of the sidebar, hover over the latest workflow run, and click the globe icon 🌐. Next, click the "Autograding" job button, click the dropdown for the "Run education/autograding" step, and scroll down to see your grade.
-
-![](github-actions-extension.gif)
-
-▶️ If you get stuck, refer to [the walkthrough video](https://github.com/AC-Classroom/intro-github-classroom/assets/45469701/93760bf7-0d27-49dc-8f66-7d50d428677f).
+Muckley, E. S., Saal, J. E., Meredig, B., Roper, C. S., Martin, J. H. (2023) Interpretable models for extrapolation in scientific in machine learning. Digital Discovery, 2023, 2, 1425
